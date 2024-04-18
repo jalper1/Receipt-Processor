@@ -1,10 +1,12 @@
 const express = require("express"); // import express
+const cors = require("cors"); // import cors
 const app = express(); // create express app
 const PORT = process.env.PORT || 4000; // define port number
 
 const receipts = {}; // object to store receipts
 
 app.use(express.json()); // middleware to parse JSON
+app.use(cors()); // middleware to enable CORS
 
 // start the server
 app.listen(PORT, () => {
