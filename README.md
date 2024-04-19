@@ -1,7 +1,7 @@
 # Receipt-Processor
 
 First, ensure that you have Docker installed on your machine.
-## How to run application:
+### Run application:
 ```
 docker build -t receipt .
 docker run -p 4000:4000 receipt
