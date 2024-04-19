@@ -2,6 +2,7 @@
 
 First, ensure that you have Docker installed on your machine.
 ### Run application:
+Run these commands in order:
 ```
 docker build -t receipt .
 docker run -p 4000:4000 receipt
