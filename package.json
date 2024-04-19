@@ -1,7 +1,7 @@
 {
   "name": "receipt-processor",
   "version": "1.0.0",
-  "description": "",
+  "description": "```\r docker build -t receipt .\r docker run -p 4000:4000 receipt\r ```\r Then, using Postman or some other tool to send HTTP requests, first send a POST request with your specific receipt. This will generate an id for that receipt. Then, you may send a GET request using that id to retrieve the point value of that receipt.",
   "main": "ReceiptProcessor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
