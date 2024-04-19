@@ -1,3 +1,4 @@
 # This .gitignore file should be placed at the root of your project directory
 #
 /node_modules
+/receipt-processor/node_modules
